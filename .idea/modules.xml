@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/base64.iml" filepath="$PROJECT_DIR$/.idea/base64.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/git_OCRTest.iml" filepath="$PROJECT_DIR$/.idea/git_OCRTest.iml" />
     </modules>
   </component>
 </project>

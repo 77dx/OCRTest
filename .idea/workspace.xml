@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/git_OCRTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelTest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelTest/labels2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelTest/results.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelTest/results_2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelTest/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelTest/runMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ocrTest/baiduOCR.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrTest/OCRTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +26,7 @@
     <SUITE FILE_PATH="coverage/base64$logger.coverage" NAME="logger Coverage Results" MODIFIED="1565768492747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/base64$Logger.coverage" NAME="Logger Coverage Results" MODIFIED="1565764343246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/base64$imageTest.coverage" NAME="imageTest Coverage Results" MODIFIED="1568095410737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocrTest" />
+    <SUITE FILE_PATH="coverage/OCRTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1568958091782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modelTest" />
     <SUITE FILE_PATH="coverage/base64$image_base64__1_.coverage" NAME="image_base64 (1) Coverage Results" MODIFIED="1568599036003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/renbao" />
     <SUITE FILE_PATH="coverage/base64$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1565769858812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/base64$baiduOCR.coverage" NAME="baiduOCR Coverage Results" MODIFIED="1568253802727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocrTest" />
@@ -99,42 +108,83 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1443593729">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="246" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="246" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ocrTest/renameTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ocrTest/OCRTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1349">
-              <caret line="72" column="40" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="40" />
-              <folding>
-                <marker date="1568255141355" expanded="true" signature="1834:2351" ph="..." />
-                <marker date="1568255141355" expanded="true" signature="4038:4727" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/renbao/image_base64.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2622">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="2831">
+              <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
               <folding>
+                <element signature="e#15#28#0" expanded="true" />
                 <marker date="1568599611248" expanded="true" signature="191:192" ph="..." />
                 <marker date="1568599611248" expanded="true" signature="191:4846" ph="..." />
                 <marker date="1568599611248" expanded="true" signature="3708:4166" ph="..." />
                 <marker date="1568599611248" expanded="true" signature="4845:4846" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modelTest/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modelTest/runMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python37/Lib/json/decoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="354" selection-start-line="354" selection-end-line="354" />
             </state>
           </provider>
         </entry>
@@ -176,7 +226,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -195,6 +245,7 @@
         <option value="$PROJECT_DIR$/ocrTest/tencentOCR.py" />
         <option value="$PROJECT_DIR$/ocrTest/baiduOCR.py" />
         <option value="$PROJECT_DIR$/renbao/image_base64.py" />
+        <option value="$PROJECT_DIR$/modelTest/runMain.py" />
       </list>
     </option>
   </component>
@@ -205,10 +256,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="824" />
-    <option name="y" value="196" />
-    <option name="width" value="1493" />
-    <option name="height" value="820" />
+    <option name="x" value="751" />
+    <option name="y" value="122" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,41 +269,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="base64" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base64" type="462c0819:PsiDirectoryNode" />
+              <item name="OCRTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_OCRTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="base64" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base64" type="462c0819:PsiDirectoryNode" />
-              <item name="ocrTest" type="462c0819:PsiDirectoryNode" />
+              <item name="OCRTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_OCRTest" type="462c0819:PsiDirectoryNode" />
+              <item name="modelTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/git_repo/study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git_repo\base64" />
-      <recent name="E:\git_repo\base64\venv\renbao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_OCRTest\modelTest" />
+      <recent name="E:\git_OCRTest" />
       <recent name="E:\git_repo\base64\renbao" />
       <recent name="E:\git_repo\base64\venv\renbao" />
       <recent name="D:\Users\cathy\PycharmProjects\base64\venv\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_repo\base64" />
+      <recent name="E:\git_repo\base64\venv\renbao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image_base64 (1)">
+  <component name="RunManager" selected="Python.runMain">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <module name="OCRTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -402,28 +455,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="image_base64" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OCRTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/renbao/image_base64.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="renameTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OCRTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -438,6 +469,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ocrTest/renameTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="git_OCRTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modelTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modelTest/runMain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -553,19 +606,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.image_base64" />
       <item itemvalue="Python.image_base64 (1)" />
       <item itemvalue="Python.renameTest" />
       <item itemvalue="Python.imageTest" />
       <item itemvalue="Python.baiduOCR" />
+      <item itemvalue="Python.runMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.runMain" />
         <item itemvalue="Python.image_base64 (1)" />
         <item itemvalue="Python.baiduOCR" />
         <item itemvalue="Python.imageTest" />
         <item itemvalue="Python.renameTest" />
-        <item itemvalue="Python.image_base64" />
       </list>
     </recent_temporary>
   </component>
@@ -593,14 +646,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1098081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5173536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4804772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -681,6 +733,8 @@
     <entry file="file://$PROJECT_DIR$/ocrTest/imageTest.py" />
     <entry file="file://$PROJECT_DIR$/ocrTest/tencentOCR.py" />
     <entry file="file://$PROJECT_DIR$/renbao/labels.csv" />
+    <entry file="file://$PROJECT_DIR$/ocrTest/renameTest.py" />
+    <entry file="file://$PROJECT_DIR$/ocrTest/OCRTest.py" />
     <entry file="file://C:/Python37/Lib/site-packages/xlrd/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
@@ -702,11 +756,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python37/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/renbao/image_base64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2622">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="2831">
+          <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
           <folding>
+            <element signature="e#15#28#0" expanded="true" />
             <marker date="1568599611248" expanded="true" signature="191:192" ph="..." />
             <marker date="1568599611248" expanded="true" signature="191:4846" ph="..." />
             <marker date="1568599611248" expanded="true" signature="3708:4166" ph="..." />
@@ -715,20 +777,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ocrTest/renameTest.py">
+    <entry file="file://$PROJECT_DIR$/modelTest/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="188">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ocrTest/OCRTest.py">
+    <entry file="file://$PROJECT_DIR$/modelTest/results2.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelTest/runMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1349">
-          <caret line="72" column="40" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="40" />
+        <state relative-caret-position="356">
+          <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
           <folding>
-            <marker date="1568255141355" expanded="true" signature="1834:2351" ph="..." />
-            <marker date="1568255141355" expanded="true" signature="4038:4727" ph="..." />
+            <element signature="e#23#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
