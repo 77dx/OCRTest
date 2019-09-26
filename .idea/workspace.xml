@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/predict-sun/predictTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predictModel-zhangli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predictModel-zhangli/labels2.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predictModel-zhangli/modelTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renbao-chenjie/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renbao-chenjie/data.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renbao-chenjie/labels_key.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/getQiniuKey/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/getQiniuKey/getKey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/operateMysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelTest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest-sun/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelTest/labels2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest-sun/labels2.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelTest/results.xls" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest-sun/results/results.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelTest/results_2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest-sun/results/results_2.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelTest/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest-sun/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelTest/runMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest-sun/runMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict-sun/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/data.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/image_base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/renbao-chenjie/image_base64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/label.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/renbao-chenjie/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/log/fb5d8e0d-047a-4590-a431-393954f0412f.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/logDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/pingLogs.log" beforeDir="false" />
-    </list>
+    <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +251,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1036" />
@@ -675,7 +648,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
