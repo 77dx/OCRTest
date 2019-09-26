@@ -7,15 +7,15 @@ import json
 import xlwt
 import xlrd
 from xlutils.copy import copy
-from renbao.logger import Loggers
+from util.logger import Loggers
 import pandas as pd
 import datetime
 
 '''
 接口请求
 '''
-base_url = "http://api.flins.com.cn"
-# base_url = "http://mp.flins.com.cn"
+# base_url = "http://api.flins.com.cn"
+base_url = "http://mp.flins.com.cn"
 log = Loggers(level='info')
 
 #获取七牛token
@@ -117,7 +117,7 @@ def new_xls(file):
         log.logger.warning("data.xls不存在")
     book = xlwt.Workbook()
     sheet = book.add_sheet("sheet1")
-    title = ["image","id",u"imgUrl",u"content", u"tiRands", u"acr", u"pointEcho","otherEcho"]
+    title = ["image",u"imgUrl",u"content", u"tiRands", u"acr", u"pointEcho","otherEcho"]
     for col in range(len(title)):
         sheet.write(0, col, title[col])
     book.save('data.xls')
@@ -148,7 +148,7 @@ def renbao(image_url,file):
 '''
 def renbao_sample(image_url,file):
     new_xls(file)
-    df = pd.read_excel('label.xls')
+    df = pd.read_excel('labels2.xls')
     image = df['image'].values
     list = image.tolist()
     for i in list:
@@ -164,6 +164,21 @@ def renbao_sample(image_url,file):
         except:
             continue
 
+def renbao_sample2(image_url,file):
+    new_xls(file)
+    df = pd.read_excel('labels2.xls')
+    image = df['image'].values
+    list = image.tolist()
+    keys = df["key"].values.tolist()
+    for i,key in zip(list,keys):
+        try:
+            xls_image(file,i)
+            log.logger.info("image:"+i)
+            id = submit(key,file)  # 提交测评#
+            query(id,file)  # 获取测评结果
+        except:
+            continue
+
 
 
 
@@ -171,7 +186,7 @@ if __name__ == '__main__':
     #开始时间
     start = datetime.datetime.now()
     #执行人保测评
-    renbao_sample('D:/samples','data.xls')
+    renbao_sample('D:/samples2','data.xls')
    # 结束时间
     end = datetime.datetime.now()
     print('运行时长：'+str((end - start).seconds)+'秒')

@@ -38,7 +38,7 @@ class Loggers(object):
         self.logger.setLevel(self.level_relations.get(level))  # 设置日志级别
         stream_handler = logging.StreamHandler()  # 往屏幕上输出
         stream_handler.setFormatter(format_str)
-        file_handler = PathFileHandler(path=self.directory, filename=filename, mode='a')
+        file_handler = PathFileHandler(path='../Logs', filename=filename, mode='a',encoding='utf-8')
         file_handler.setFormatter(format_str)
         self.logger.addHandler(stream_handler)
         self.logger.addHandler(file_handler)
